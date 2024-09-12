@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+
+header, footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.left-sidebar {
+    background-color: #ddd;
+}
+
+.right-sidebar {
+    background-color: #ddd;
+}
+
+main {
+    padding: 20px;
+    background-color: #fff;
+}
